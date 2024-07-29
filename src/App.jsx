@@ -9,6 +9,7 @@ import ChartsPage from './pages/ChartsPage';
 import CalendarPage from './pages/CalenderPage';
 import KanbanPage from './pages/KanbanPage';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import FormComponent from './components/FormComponent';
 
 export const ThemeContext = React.createContext();
 
@@ -34,6 +35,7 @@ const App = () => {
                 <Route path="/charts" element={<ChartsPage />} />
                 <Route path="/calendar" element={<CalendarPage />} />
                 <Route path="/kanban" element={<KanbanPage />} />
+                <Route path='/Form' element={<FormComponent/>}/>
               </Routes>
             </main>
           </div>

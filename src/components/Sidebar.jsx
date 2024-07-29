@@ -20,6 +20,9 @@ const Sidebar = () => {
       <ListItem button component={NavLink} to="/kanban">
         <ListItemText primary="Kanban Board" />
       </ListItem>
+      <ListItem button component={NavLink} to="/form">
+        <ListItemText primary="Form" />
+      </ListItem>
     </List>
   );
 };
